@@ -2,9 +2,8 @@ import slotifyLogo from "/Users/aryapathak/eventSchedulingApp/client/frontend/sr
 
 
 
-
 const FirstNavbar = () => {
-  
+
   return (
     <div className="absolute top-0 left-0 w-full mt-[50px] border-b-2 border-b-black-100 ">
         <nav className="flex mb-[5px]  ">
