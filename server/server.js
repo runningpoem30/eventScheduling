@@ -4,6 +4,7 @@ const cors = require("cors")
 const app = express()
 const User = require("./models/signupModel")
 const userRouter = require("./routes/signupRoute")
+const eventRouter = require("./routes/eventRoute")
 
 
 app.use(express.json())
@@ -12,6 +13,7 @@ const PORT = 5001;
 
 
 app.use('/user' , userRouter)
+app.use('/event' , eventRouter)
 
 mongoose.connect("mongodb://localhost:27017/eventSchedulingApp")
 .then(() => {

@@ -1,0 +1,12 @@
+.react_calendar{
+  border : none;
+  width : 500px;
+  color : black;
+  font-weight: 140;
+}
+
+.react_calendar__tile {
+  color: black;
+  background: transparent;
+}
+
