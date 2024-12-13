@@ -45,7 +45,10 @@ const Login = () => {
 						</div>
 
 						<div className="button">
-							<button className="ml-[200px] mt-[10px] bg-[#3793FF] px-10 text-[white] py-3 rounded-[5px]">
+							<button
+								className="ml-[200px] mt-[10px] bg-[#3793FF] px-10 text-[white] py-3 rounded-[5px]"
+								onClick={() => navigate("/dashboard")}
+							>
 								Submit
 							</button>
 						</div>

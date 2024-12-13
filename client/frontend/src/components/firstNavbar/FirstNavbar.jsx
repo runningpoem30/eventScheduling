@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const FirstNavbar = () => {
 	const navigate = useNavigate();
 	return (
-		<div className="absolute top-0 left-0 w-full mt-[20px] border-b-2 border-b-black-100 ">
+		<div className="absolute bg-white top-0 left-0 w-full pt-[20px] border-b-2 border-b-black-100 ">
 			<nav className="flex justify-between">
 				<img
 					src={slotifyLogo}
