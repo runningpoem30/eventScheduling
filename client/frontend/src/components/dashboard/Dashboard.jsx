@@ -68,15 +68,15 @@ const Dashboard = () => {
 			</div>
 
 			{/* main content */}
-			<div className="flex-1 flex flex-col justify-center items-start px-10">
-				<h1 className="text-4xl font-bold mb-2">
+			<div className="flex-1 flex-col justify-center items-start px-10">
+				<h1 className="text-6xl font-bold mb-2">
 					Good Morning,{" "}
 					<span className="text-blue-400">{firstName}</span>
 				</h1>
-				<p className="text-xl font-medium">Coming up next,</p>
+				<p className="text-3xl font-medium">Coming up next,</p>
 
 				{/* Month Selector */}
-				<div className="mt-5">
+				<div className="mt-5 pt-10">
 					<label
 						className="text-lg font-semibold mr-4"
 						htmlFor="monthSelector"
