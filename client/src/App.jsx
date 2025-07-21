@@ -1,10 +1,14 @@
 import { Button } from "@/components/ui/button"; // if alias works
+import { Routes , Route } from "react-router-dom";
+import Auth from "./pages/Auth";
 
 function App() {
+
   return (
-    <div className="h-screen flex items-center justify-center bg-background">
-      <Button variant="default">Hello from Shadcn 👋</Button>
-    </div>
+    <Routes>
+      <Route path='/auth' element={<Auth/>}/>
+    </Routes>
+   
   );
 }
 
